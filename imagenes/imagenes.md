@@ -1,6 +1,0 @@
-![github-mark-white](https://user-images.githubusercontent.com/95323247/234999795-46faec48-8dc5-4c15-a824-3db485eb7fea.png)
-![linkedin-logo-png-1853](https://user-images.githubusercontent.com/95323247/234999800-6be42435-d7a9-43f7-9ff2-d23367c60f75.png)
-![Logo](https://user-images.githubusercontent.com/95323247/234999807-0ba86819-56c2-4617-9ad8-966d6db40c4d.png)
-![logo-gmail-9984](https://user-images.githubusercontent.com/95323247/234999812-0c1b7d69-f60a-4121-a936-41ab44ca318a.png)
-![Muñeco](https://user-images.githubusercontent.com/95323247/234999829-c7824148-73f7-4ae2-9134-fa5a96912853.png)
-![paisaje-fondo](https://user-images.githubusercontent.com/95323247/234999840-604f2601-b815-43ff-b764-83e5965197a7.jpg)
