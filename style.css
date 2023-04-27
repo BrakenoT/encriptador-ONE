@@ -1,0 +1,327 @@
+body{
+    background:url(.//Imagenes/paisaje-fondo.jpg);
+    
+}
+
+.header{
+    align-items: center;
+    margin: 2% 0 2% 6%;
+}
+  
+.imagen-b{
+    object-fit: contain;
+    width: 60%;
+    height: 60%;
+}
+  
+.contenedor-total{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60vh;
+    justify-content: center;
+}
+  
+.contenedor-entrada{
+    width: 60%;
+    text-align: center;
+}
+  
+.imagen_de_vacio,.contenedor-salida{
+    width: 40%;
+    text-align: center;
+}
+  
+.contenedor-salida{
+    display: none;
+}
+  
+#indicacion{
+    font-weight: bold;
+    font-size: 1rem;
+    display: block;
+    padding: .9%;
+}
+  
+.parrafo, .mensaje-info{
+    text-align: center;
+    font-weight: bold;
+    padding: 2px
+}
+  
+#texto_a_encriptar, #respuesta{
+    width: 80%;
+    height: 350px;
+    resize: none;
+    font-size: 20px;
+    border-radius: 12px;
+    padding: 10px;
+}
+  
+#texto_a_encriptar{
+    opacity: 0.5;
+    font-weight: bold;
+    
+}
+  
+#texto_a_encriptar::placeholder{
+    font-weight: bold;
+}
+  
+#respuesta{
+    opacity: 0.5;
+    font-weight: bold;
+    
+}
+  
+.boton{
+    text-align: center;
+    font-size: 1rem;
+    width: 20%;
+    height: 6vh;
+    background-color: red;
+    color: rgb(238, 243, 243);
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 10px;
+}
+  
+#boton-copiar, #boton-limpiar {
+    width: 80%;
+    margin: 5px auto;
+    display: block;
+}
+  
+.boton:hover{
+    background-color: white;
+    border: 2px solid blueviolet;
+    color: black;
+}
+
+#me-github{
+  width: 50px;
+  height: 50px;
+  margin-left: 120px;
+  display: inline-block;
+  
+}
+
+#me-linkedin{
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  display: inline-block;
+  
+}
+
+#me-email{
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  display: inline-block;
+  
+}
+
+@media (max-width: 950px){
+  .contenedor-total{
+      display: block;
+      width: 100%;
+  }
+  
+  .header{
+      margin: 4% 0 4% 10%;
+  }
+    
+  .contenedor-entrada{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 4rem;
+  }
+    
+  .imagen_de_vacio,.contenedor-salida{
+      width: 100%;
+      text-align: center;
+  }
+    
+  .contenedor-salida{
+      display: none;
+  }
+  
+  #texto_a_encriptar, #respuesta{
+      width: 80%;
+      height: 250px;
+  }
+  
+  .boton{
+      text-align: center;
+      font-size: 1rem;
+      width: 40%;
+      height: 6vh;
+  }
+  
+  .imagen-b{
+      width: 40%;
+  }
+}
+  
+@media (max-width: 950px) and (orientation: portrait){
+  .contenedor-total{
+      display: block;
+      width: 100%;
+  }
+  
+  .header{
+      margin: 4% 0 4% 10%;
+  }
+    
+  .contenedor-entrada{
+      width: 100%;
+      text-align: center;
+      margin-bottom: 4rem;
+  }
+    
+  .imagen_de_vacio,.contenedor-salida{
+      width: 100%;
+      text-align: center;
+  }
+    
+  .contenedor-salida{
+      display: none;
+  }
+  
+  #texto_a_encriptar, #respuesta{
+      width: 80%;
+      height: 250px;
+  }
+  
+  .boton{
+      text-align: center;
+      font-size: 1rem;
+      width: 40%;
+      height: 6vh;
+  }
+  
+  .imagen-b{
+      width: 40%;
+  }
+  #me-github{
+    margin-left: 100px;
+    margin-top: 320px;
+  }
+  #me-linkedin{
+    margin-left: 85px;
+  }
+  #me-email{
+    margin-left: 100px;
+  }
+}
+  
+@media (max-width: 480px) and (orientation: portrait){
+  .header{
+      margin: 14% 0 4% 10%;
+  }
+    
+  #indicacion{
+      font-size: smaller;
+  }
+  
+  .contenedor-entrada{
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+    
+  .imagen_de_vacio,.contenedor-salida{
+      width: 100%;
+  }
+  
+  #texto_a_encriptar, #respuesta{
+      width: 80%;
+      height: 150px;
+      font-size: small;
+  }
+  
+  #texto_a_encriptar, #respuesta::placeholder{
+      font-size: small;
+  }
+  
+  .boton{
+      text-align: center;
+      font-size: 0.8rem;
+      width: 40%;
+      height: 6vh;
+  }
+  
+  .mensaje-info{
+      font-size: 1rem;
+  }
+  
+  .parrafo{
+      font-size: 0.8rem;
+  }
+  
+  .imagen-b{
+      width: 40%;
+  }
+
+  #me-github{
+  margin-left: 50px;
+  margin-top: 100px;
+  }
+  #me-linkedin{
+  margin-left: 60px;
+  }
+  #me-email{
+  margin-left: 50px;
+  }
+}
+  
+@media (max-height: 480px) and (orientation: landscape){
+  .header{
+      margin: 1% 0 3% 6%;
+  }
+  
+  .contenedor-entrada{
+      width: 50%;
+      text-align: center;
+  }
+    
+  .imagen_de_vacio,.contenedor-salida{
+      width: 50%;
+      text-align: center;
+  }
+  
+  #texto_a_encriptar, #respuesta{
+      height: 100px;
+      font-size: 0.8rem;
+  }
+  
+  #texto_a_encriptar, #respuesta::placeholder{
+      font-size: 0.8rem;
+  }
+  
+  .mensaje-info{
+      font-size: 0.8rem;
+  }
+  
+  .parrafo{
+      font-size: 0.7rem;
+  }
+  
+  #indicacion{
+      font-size: 0.8rem;
+      margin-bottom: 0.4rem;
+      margin-top: 0.4rem;
+  }
+  
+  .imagen-b{
+      width: 50%;
+      height: 50%;
+  }
+  
+  .boton{
+      text-align: center;
+      font-size: 0.8rem;
+      width: 40%;
+      height: 8vh;
+  }  
+}

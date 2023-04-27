@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="BrakenoT">
+    <meta name="description" content="Encriptador-ONE">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Encriptador</title>
+</head>
+<header class="header">
+    <img src="./Imagenes/Logo.png" class="alura">
+</header>
+<body>
+    <section class="contenedor-total">
+        <article class="contenedor-entrada">
+            <form onreset="mostrarOcultarDivs()">
+                <textarea id="texto_a_encriptar" id="tectoOriginal" placeholder="Ingresa el texto  aquí" name="texto" minlength="1" autofocus oninput="mostrarOcultarDivs()"></textarea>
+                <br>
+                <label id="indicacion">Solo encripta letras minúsculas y sin acento</label>
+                <input class="boton" type="button" value="Encriptar" id="boton-encriptar" >
+                <input class="boton" type="button" value="Desencriptar" id="boton-desencriptar" name="Desencriptar">
+            </form>
+        </article>
+        <article class="imagen_de_vacio" id="pasivo">
+            <img src="./Imagenes/Muñeco.png" class="imagen-b">
+            <h3 class="mensaje-info">Ningun mensaje fue encontrado</h3>
+            <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar</p>
+        </article>
+        <article class="contenedor-salida" id="activo">
+            <form>
+                <textarea id="respuesta" ></textarea>
+                <br>
+                <label id="indicacion" for="copiar">Usa el boton para copiar tu texto</label>
+                <input class="boton" type="button" value="copiar" id="boton-copiar">
+                <input class="boton" type="button" value="limpiar" id="boton-limpiar">
+            </form>
+        </article>
+    </section>
+</body>
+<footer>
+    <section>
+        <a href="https://github.com/BrakenoT"><img src="./Imagenes/github-mark-white.png" alt="github" id="me-github"></a>
+        <a href="https://www.linkedin.com/in/brayan-herlan-villca"><img src="./Imagenes/linkedin-logo-png-1853.png" alt="Linkedin" id="me-linkedin"></a>
+        <a href=""></a>
+        <a href="mailto:brayanvillca246@gmail.com"><img src="./Imagenes/logo-gmail-9984.png" alt="Email" id="me-email"></a>
+    </section>
+</footer>
+<script src="./encriptador.js"></script>
+</html>     
