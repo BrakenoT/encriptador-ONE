@@ -25,7 +25,7 @@ An encrypter of words:
 
 ## Container empty
 
-![]("./imagenes/encryptor-capture.png")
+![]("./Imagenes/encryptor-capture.png")
 
 ## Container with words and encrypter words
 
