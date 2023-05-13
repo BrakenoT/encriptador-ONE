@@ -25,21 +25,21 @@ An encrypter of words:
 
 ## Container empty
 
-![]("./Imagenes/encryptor-capture.png")
+![]("/Imagenes/encryptor-capture.png")
 
 ## Container with words and encrypter words
 
-![]("./Imagenes/encrypter-capture2.png")
+![]("/Imagenes/encrypter-capture2.png")
 
 # **_iPad_**
 
 ## Container empty
 
-![]("./Imagenes/capture-ipad.png")
+![]("/Imagenes/capture-ipad.png")
 
 ## Words container and encrypter words
 
-![]("./Imagenes/capture-ipad2.png")
+![]("/Imagenes/capture-ipad2.png")
 
 # **_Mobile_**
 
