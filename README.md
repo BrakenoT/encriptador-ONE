@@ -25,7 +25,7 @@ An encrypter of words:
 
 ## Container empty
 
-![]("/Imagenes/encryptor-capture.png")
+[![encryptor-capture.png](https://i.postimg.cc/T32ssf4N/encryptor-capture.png)](https://postimg.cc/GHNz8wrv)
 
 ## Container with words and encrypter words
 
