@@ -13,37 +13,37 @@ An encrypter of words:
 ## Content:
 
 - Alura-Latam logo
-- Container text
-- Button Encryptor
-- Button Decryptor
-- Container Result
-- Button Copy
-- Button Clean
+- Text Container
+- Encryptor Button
+- Decryptor Button
+- Result Container
+- Copy Button
+- Clean Button
 - Link to social networks
 
 # **Desktop**
 
-## Container empty
+## Empty container
 
 [![encryptor-capture.png](https://i.postimg.cc/T32ssf4N/encryptor-capture.png)](https://postimg.cc/GHNz8wrv)
 
 ## Container with words and encrypter words
 
-![]("/Imagenes/encrypter-capture2.png")
+[![encrypter-capture2.png](https://i.postimg.cc/GhtYgfjJ/encrypter-capture2.png)](https://postimg.cc/YhchhbZh)
 
 # **_iPad_**
 
-## Container empty
+## Empty container
 
-![]("/Imagenes/capture-ipad.png")
+[![capture-ipad.png](https://i.postimg.cc/fbfJR7KR/capture-ipad.png)](https://postimg.cc/3yWKLvVs)
 
 ## Words container and encrypter words
 
-![]("/Imagenes/capture-ipad2.png")
+[![capture-ipad2.png](https://i.postimg.cc/4ymdPDTY/capture-ipad2.png)](https://postimg.cc/GTndhStR)
 
 # **_Mobile_**
 
-## Container empty
+## Empty container
 
 ![](./Imagenes/capture-mobile.png)
 
